@@ -63,7 +63,7 @@ quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Uni
 basic.showIcon(IconNames.Happy)
 quest_Timer.quest_Set_ContinueCurrentState_CountdownTimer_Func(2, quest_Time_Units_Enum.Seconds)
 quest_Note_1.quest_Show_String_For_Note_Big_Func(
-"Setup Code for Teacher:"
+"Below, Setup Code for Teacher:"
 )
 quest_Note_1.quest_Show_String_For_Note_Small_Func(
 "micro:bit's LED Display is upside-down on bot"
@@ -71,7 +71,7 @@ quest_Note_1.quest_Show_String_For_Note_Small_Func(
 display.rotateTo(display.Direction.UpsideDown)
 input.calibrateCompass()
 quest_Note_1.quest_Show_String_For_Note_Big_Func(
-"Setup Code for Student:"
+"Below, Setup Code for Student:"
 )
 basic.forever(function () {
     while (input.isGesture(Gesture.ScreenDown)) {
@@ -114,7 +114,7 @@ basic.forever(function () {
 })
 basic.forever(function () {
     quest_Note_1.quest_Show_String_For_Note_Small_Func(
-    "Ver 0.1.1: 25-0326-1820"
+    "Ver 0.1.2: 25-0401-1930"
     )
     quest_Note_1.quest_Show_String_For_Note_Small_Func(
     "©️ 2025 Quest Institute. All rights reserved."
