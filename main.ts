@@ -74,6 +74,14 @@ quest_Note_1.quest_Show_String_For_Note_Big_Func(
 "Below, Setup Code for Student:"
 )
 basic.forever(function () {
+    quest_Note_1.quest_Show_String_For_Note_Small_Func(
+    "Ver 0.1.3: 26-0402-1710"
+    )
+    quest_Note_1.quest_Show_String_For_Note_Small_Func(
+    "©️ 2026 Quest Institute. All rights reserved."
+    )
+})
+basic.forever(function () {
     while (input.isGesture(Gesture.ScreenDown)) {
         music.setTempo(60)
         basic.showIcon(IconNames.Heart)
@@ -111,12 +119,4 @@ basic.forever(function () {
         }
         basic.clearScreen()
     }
-})
-basic.forever(function () {
-    quest_Note_1.quest_Show_String_For_Note_Small_Func(
-    "Ver 0.1.2: 25-0401-1930"
-    )
-    quest_Note_1.quest_Show_String_For_Note_Small_Func(
-    "©️ 2025 Quest Institute. All rights reserved."
-    )
 })
